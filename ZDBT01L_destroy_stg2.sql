@@ -1,0 +1,8 @@
+-- ZDBT01W_destroy.sql
+DROP USER appdba;
+DROP USER reporter;
+
+DROP TABLESPACE APP01 INCLUDING CONTENTS AND DATAFILES;
+
+commit;
+quit;
